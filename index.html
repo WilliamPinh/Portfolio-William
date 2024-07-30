@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Define compatibilidade com o IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a visualização em dispositivos móveis -->
+    
+    <!-- Importa os estilos CSS -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="./assets/icons/WILLFAVICON.png"> <!-- Define o favicon da página -->
+    <title>Portfólio | William Pinheiro</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2><a class="logo" href="#">&ltWill Dev/&gt</a></h2> <!-- Logo do site -->
+
+            <ul id="nav-list" class="nav-list">
+                <li class="item-list"><a class="nav-link" href="#about">Sobre mim</a></li>
+                <li class="item-list"><a class="nav-link" href="#projects">Projetos</a></li>
+                <li class="item-list"><a class="nav-link" href="#skills">Conhecimentos</a></li>
+                <li class="item-list"><a class="nav-link" href="#contacts">Contato</a></li>
+            </ul>
+
+            <div class="menu-icon">
+                <div id="line-one" class="line-1"></div>
+                <div id="line-two" class="line-2"></div>
+                <div id="line-three" class="line-3"></div> <!-- Ícone do menu para dispositivos móveis -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="s-home"> <!-- Seção inicial -->
+
+            <article class="article-home">
+                <spam class="spam-home  d-200">Olá, meu nome é</spam>
+                <h1 class="d-300">
+                    <spam>Will</spam>iam<spam> Pinheiro</spam>
+                </h1>
+                <p id="typeWriter" class="d-300">I build things for the web.</p> <!-- Texto com efeito de escrita -->
+                <div class="buttons-home d-400">
+                    <a class="get-in-touch" href="#contacts">Entrar em contato</a>
+                </div>
+            </article>
+
+            <img class="img-home" src="./assets/icons/svg1.png" alt="UndrawSvg"> <!-- Imagem ilustrativa -->
+
+        </section>
+
+        <section id="about" class="s-about"> <!-- Seção sobre mim -->
+
+            <img class="profile-about d-200" src="./assets/icons/perfil.png" alt="ProfilePng"> <!-- Foto de perfil -->
+
+            <article class="article-about">
+                <h2 class="title-about d-200">Quem sou <spam class="point">.</spam></h2>
+                <p class="paragraph-about d-300">
+                    Nasci nos Estados Unidos, Nova Jersey, em 2005. Possuo ensino médio completo e ingressei na faculdade em 2023 no curso de Engenharia de Software. Atualmente, estou no 4° período. Programação é minha paixão e estou sempre ansioso para aprender mais sobre diversas linguagens.
+                </p>
+            </article>
+
+        </section>
+
+        <section id="projects" class="s-projects"> <!-- Seção de projetos -->
+
+            <h2 class="title-projects d-200">Projetos <span class="point">.</span></h2>
+        
+            <div class="container-projects d-300">
+                <div class="row-1">
+                    <div class="cards-project d-300">
+                        <img src="./assets/icons/projeto1.png" alt="">
+        
+                        <div class="project-info">
+                            <h4>Gestão Escolar</h4>
+                            <p>Sistema escolar para organizar, calcular médias e salvar dados no Local Storage do navegador.</p>
+                            <div class="projeto1-project">
+                                <a class="view-live" href="https://brezendelima.github.io/gestaoEscolar_Unicesumar/" target="_blank">Visualizar</a> <!-- Link para visualização do projeto -->
+                                <a class="github-repo" href="https://github.com/WilliamPinh" target="_blank">GitHub Repo</a> <!-- Link para o repositório no GitHub -->
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="cards-project">
+                        <img src="./assets/icons/projeto2.png" alt="">
+        
+                        <div class="project-info">
+                            <h4>Jogo da Velha</h4>
+                            <p>Simples jogo da velha desenvolvido em equipe para praticar lógica de programação e manipulação do DOM.</p>
+                            <div class="projeto1-project">
+                                <a class="view-live" href="https://brezendelima.github.io/jogodaVelha_Unicesumar/" target="_blank">Visualizar</a>
+                                <a class="github-repo" href="https://github.com/WilliamPinh" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="cards-project">
+                        <img src="./assets/icons/projeto3.png" alt="">
+        
+                        <div class="project-info">
+                            <h4>To do List</h4>
+                            <p>Lista de tarefas simples que serve para fazer anotações, com opção de excluir, marcar como concluída.</p>
+                            <div class="projeto1-project">
+                                <a class="view-live" href="https://williampinh.github.io/To-do-list/" target="_blank">Visualizar</a>
+                                <a class="github-repo" href="https://github.com/WilliamPinh" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row-2">
+                    <div class="cards-project">
+                        <img src="./assets/icons/projeto4.png" alt="">
+        
+                        <div class="project-info">
+                            <h4>Consulta CEP</h4>
+                            <p>Página onde os usuários inserem um CEP, consultam uma API para obter o endereço e exibir informações na tela.</p>
+                            <div class="projeto1-project">
+                                <a class="view-live" href="https://williampinh.github.io/Consulta-CEP/" target="_blank">Visualizar</a>
+                                <a class="github-repo" href="https://github.com/WilliamPinh" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="cards-project">
+                        <img src="./assets/icons/projeto5.png" alt="">
+        
+                        <div class="project-info">
+                            <h4>Portfolio Pessoal</h4>
+                            <p>Meu primeiro portfólio pessoal online, apresentando meus projetos, habilidades e experiência profissional.</p>
+                            <div class="projeto1-project">
+                                <a class="view-live" href="https://williampinh.github.io/Meu-Primeiro-Portfolio/" target="_blank">Visualizar</a>
+                                <a class="github-repo" href="https://github.com/WilliamPinh/portfolio" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="cards-project">
+                        <img src="./assets/icons/projeto6.png" alt="">
+        
+                        <div class="project-info">
+                            <h4>Care Connect</h4>
+                            <p>Site para buscar profissionais de saúde pelo CEP. Apenas modelo estético, sem funcionalidade real.</p>
+                            <div class="projeto1-project">
+                                <a class="view-live" href="https://example.com/blogtech" target="_blank">Visualizar</a>
+                                <a class="github-repo" href="https://github.com/WilliamPinh/blogtech" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <button class="show-more d-200">Ver mais</button> <!-- Botão para ver mais projetos -->
+        
+        </section>
+        
+
+        <section id="skills" class="s-skills"> <!-- Seção de habilidades -->
+
+            <article class="article-skills">
+                <h2 class="title-skills d-200">Conhecimentos <spam class="point">.</spam></h2>
+                <spam class="card-name"></spam>
+                <p id="info-skills" class="d-300">* passe o cursor sobre os ícones para saber mais * <!-- Instrução para interatividade -->
+            </article>
+
+            <div class="grid-skills d-400">
+                <div class="card-skills html">
+                    <img src="./assets/icons/Html.svg" alt="HtmlSvg"> <!-- Ícone de HTML -->
+                </div>
+
+                <div class="card-skills css">
+                    <img src="./assets/icons/css.svg" alt="CssSvg"> <!-- Ícone de CSS -->
+                </div>
+
+                <div class="card-skills js">
+                    <img src="./assets/icons/JavaScript.svg" alt="JavaScriptSvg"> <!-- Ícone de JavaScript -->
+                </div>
+
+                <div class="card-skills php">
+                    <img src="./assets/icons/php.svg" alt="PhpSvg"> <!-- Ícone de PHP -->
+                </div>
+
+                <div class="card-skills cplus">
+                    <img src=" ./assets/icons/cplus.svg" alt="CplusSvg"> <!-- Ícone de C++ -->
+                </div>
+
+                <div class="card-skills accessibility">
+                    <img src="./assets/icons/acessibilidade.png" alt="AcessibilidadePng"> <!-- Ícone de Acessibilidade -->
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacts" class="s-contact"> <!-- Seção de contato -->
+
+            <article class="article-contact">
+
+                <h2 class="title-contact d-200">Contato <spam class="point">.</spam></h2>
+
+                <div class="social-links d-400">
+                    <a href="https://www.linkedin.com/in/william-pinheiro-718b93276/">
+                        <img src="./assets/icons/linkedIn.svg" alt="LinkedIn"> <!-- Link para o LinkedIn -->
+                    </a>
+
+                    <a href="https://github.com/WilliamPinh">
+                        <img src="./assets/icons/GitHub.svg" alt="GitHub"> <!-- Link para o GitHub -->
+                    </a>
+                </div>
+
+            </article>
+
+            <form action="https://formsubmit.co/" method="POST" class="form d-400"> <!-- Formulário de contato via FormSubmit -->
+                <label>
+                    <input type="text" name="Nome" placeholder="Seu nome" required autocomplete>
+                </label>
+
+                <label>
+                    <input type="email" name="Email" placeholder="seuemail@email.com" required autocomplete="">
+                </label>
+
+                <label>
+                    <textarea name="Mensagem" placeholder="Deixe sua mensagem"></textarea>
+                </label>
+
+                <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit">Enviar</button> <!-- Botão de envio -->
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#">Back To Top <img src="./assets/icons/arrow.png" alt="arrowUp"></a> <!-- Link para voltar ao topo -->
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/scripts/configScroll.js"></script>
+    <script src="./assets/scripts/changeDescription.js"></script>
+    <script src="./assets/scripts/typeWriter.js"></script>
+    <script src="./assets/scripts/showMore.js"></script>
+    <script src="./assets/scripts/menu.js"></script>
+</body>
+
+</html>
