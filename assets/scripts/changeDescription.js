@@ -49,7 +49,7 @@ changeDescription(
 
 changeDescription(
     '.php',
-    'Desenvolvimento de estruturas de controle, como loops e condicionais, manipular arrays e dicionários, e desenvolver funções para automatizar processos simples.'
+    'Desenvolvimento de estruturas de controle, como loops e condicionais, manipular arrays e dicionários, e desenvolver funções para automatizar processos bem simples.'
 )
 
 changeDescription(
