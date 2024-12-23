@@ -18,7 +18,7 @@ const changeDescription = (nameCard, text) => {
         if(nameCard === '.php') {
             cardName.innerHTML = ' PHP '
         } 
-        if(nameCard === '.C++') {
+        if(nameCard === '.c++') {
             cardName.innerHTML = ' C++ '
         } 
         if(nameCard === '.accessibility') {
