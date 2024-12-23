@@ -23,6 +23,12 @@ const changeDescription = (nameCard, text) => {
         } 
         if(nameCard === '.accessibility') {
             cardName.innerHTML = ' Acessibilidade '
+        }
+        if(nameCard === 'Power BI') {
+            cardName.innerHTML = ' Power BI '
+        } 
+        if(nameCard === 'Excel') {
+            cardName.innerHTML = ' Excel '
         } 
     })
 
@@ -59,5 +65,15 @@ changeDescription(
 
 changeDescription(
     '.accessibility',
+    'Boas práticas, como: elementos semânticos, descrição de imagens, níveis de títulos, botões e links.'   
+)
+
+changeDescription(
+    '.Power BI',
+    'Boas práticas, como: elementos semânticos, descrição de imagens, níveis de títulos, botões e links.'   
+)
+
+changeDescription(
+    '.Excel',
     'Boas práticas, como: elementos semânticos, descrição de imagens, níveis de títulos, botões e links.'   
 )
