@@ -30,6 +30,9 @@ const changeDescription = (nameCard, text) => {
         if(nameCard === 'Excel') {
             cardName.innerHTML = ' Excel '
         } 
+        if(nameCard === 'sql') {
+            cardName.innerHTML = ' SQL '
+        } 
     })
 
     document.querySelector(nameCard).addEventListener('mouseout', () => {
@@ -75,5 +78,10 @@ changeDescription(
 
 changeDescription(
     '.Excel',
+    'Boas práticas, como: elementos semânticos, descrição de imagens, níveis de títulos, botões e links.'   
+)
+
+changeDescription(
+    '.SQL',
     'Boas práticas, como: elementos semânticos, descrição de imagens, níveis de títulos, botões e links.'   
 )
