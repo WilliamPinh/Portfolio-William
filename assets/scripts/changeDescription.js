@@ -24,10 +24,10 @@ const changeDescription = (nameCard, text) => {
         if(nameCard === '.accessibility') {
             cardName.innerHTML = ' Acessibilidade '
         }
-        if(nameCard === '.Power BI') {
+        if(nameCard === '.power bi') {
             cardName.innerHTML = ' Power BI '
         } 
-        if(nameCard === '.Excel') {
+        if(nameCard === '.excel') {
             cardName.innerHTML = ' Excel '
         } 
         if(nameCard === '.sql') {
@@ -72,16 +72,16 @@ changeDescription(
 )
 
 changeDescription(
-    '.Power BI',
+    '.power bi',
     'teste red'   
 )
 
 changeDescription(
-    '.Excel',
+    '.excel',
     'teste blue'   
 )
 
 changeDescription(
-    '.SQL',
+    '.sql',
     'teste pink'   
 )
