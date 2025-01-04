@@ -24,7 +24,7 @@ const changeDescription = (nameCard, text) => {
         if(nameCard === '.accessibility') {
             cardName.innerHTML = ' Acessibilidade '
         }
-        if(nameCard === '.power bi') {
+        if(nameCard === '.power-bi') {
             cardName.innerHTML = ' Power BI '
         } 
         if(nameCard === '.excel') {
@@ -72,16 +72,16 @@ changeDescription(
 )
 
 changeDescription(
-    '.power bi',
-    'teste red'   
+    '.power-bi',
+    'Criação de gráficos simples e análise de dados em relatórios visuais.'   
 )
 
 changeDescription(
     '.excel',
-    'teste blue'   
+    'Criação de planilhas e uso de fórmulas para cálculos simples.'   
 )
 
 changeDescription(
     '.sql',
-    'teste pink'   
+    'Criações de modelos Conceituais e Lógicas de banco de dados, Suporte a Gestão e Códigos em SQL'   
 )
