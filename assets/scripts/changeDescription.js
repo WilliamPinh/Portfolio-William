@@ -67,7 +67,7 @@ changeDescription(
 
 changeDescription(
     '.java',
-    'bla bla bla'
+    'bla bla bla.'
 )
 
 changeDescription(
@@ -82,7 +82,7 @@ changeDescription(
 
 changeDescription(
     '.python',
-    'bla bla bla'   
+    'bla bla bla.'   
 )
 
 changeDescription(
@@ -107,5 +107,5 @@ changeDescription(
 
 changeDescription(
     '.figma',
-    'bla bla bla'   
+    'bla bla bla.'   
 )
