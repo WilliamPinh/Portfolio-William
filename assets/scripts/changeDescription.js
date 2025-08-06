@@ -15,11 +15,17 @@ const changeDescription = (nameCard, text) => {
         if(nameCard === '.js') {
             cardName.innerHTML = ' JavaScript '
         }
+        if(nameCard === '.java') {
+            cardName.innerHTML = ' Java '
+        }
         if(nameCard === '.cplus') {
             cardName.innerHTML = ' C++ '
         }
         if(nameCard === '.sql') {
             cardName.innerHTML = ' SQL '
+        }
+        if(nameCard === '.python') {
+            cardName.innerHTML = ' Python '
         }
         if(nameCard === '.php') {
             cardName.innerHTML = ' PHP '
@@ -32,7 +38,10 @@ const changeDescription = (nameCard, text) => {
         } 
         if(nameCard === '.excel') {
             cardName.innerHTML = ' Excel '
-        } 
+        }
+        if(nameCard === '.figma') {
+            cardName.innerHTML = ' Figma '
+        }
     })
 
     document.querySelector(nameCard).addEventListener('mouseout', () => {
@@ -57,6 +66,11 @@ changeDescription(
 )
 
 changeDescription(
+    '.java',
+    'bla bla bla'
+)
+
+changeDescription(
     '.cplus',
     'Desenvolvimento de manipulação de dados, como acessar elementos de arrays e vetores, criar estruturas de dados simples e implementar algoritmos de busca e ordenação.'   
 )
@@ -64,6 +78,11 @@ changeDescription(
 changeDescription(
     '.sql',
     'Criações de modelos Conceituais e Lógicas de banco de dados, Suporte a Gestão e Códigos em SQL'   
+)
+
+changeDescription(
+    '.python',
+    'bla bla bla'   
 )
 
 changeDescription(
@@ -84,4 +103,9 @@ changeDescription(
 changeDescription(
     '.excel',
     'Criação de planilhas e uso de fórmulas para cálculos simples.'   
+)
+
+changeDescription(
+    '.figma',
+    'bla bla bla'   
 )
