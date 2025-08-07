@@ -67,7 +67,7 @@ changeDescription(
 
 changeDescription(
     '.java',
-    'bla bla bla.'
+    'Desenvolvimento de aplicações com foco em lógica de programação, utilizando estruturas de controle, manipulação de arrays e coleções, criação de classes e objetos, e implementação de algoritmos básicos como busca e ordenação.'
 )
 
 changeDescription(
@@ -82,7 +82,7 @@ changeDescription(
 
 changeDescription(
     '.python',
-    'bla bla bla.'   
+    'Criação de pequenos projetos, como calculadoras e ferramentas simples, aplicando lógica de programação, operações matemáticas, controle de fluxo e manipulação básica de variáveis e funções.'   
 )
 
 changeDescription(
@@ -107,5 +107,5 @@ changeDescription(
 
 changeDescription(
     '.figma',
-    'bla bla bla.'   
+    'Criação de interfaces simples no Figma, com foco em design visual e usabilidade. Desenvolvimento de telas, aplicando princípios básicos de layout, tipografia e organização de componentes.'   
 )
